@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1E1E1E">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🤖 XENOX DOWNLOADER"
+        android:textSize="24sp"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Familia Digital 💙"
+        android:textSize="14sp"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/urlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pega la URL de YouTube aquí"
+        android:textColorHint="#757575"
+        android:textColor="#FFFFFF"
+        android:background="#2C2C2C"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textUri"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <Button
+            android:id="@+id/downloadVideoBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📹 Video 480p"
+            android:textColor="#FFFFFF"
+            android:background="#2196F3"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/downloadAudioBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🎵 Audio MP3"
+            android:textColor="#FFFFFF"
+            android:background="#4CAF50"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listo para descargar"
+        android:textSize="16sp"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperando..."
+        android:textSize="14sp"
+        android:textColor="#9E9E9E"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="━━━━━━━━━━━━━━━━━━━━━━━━"
+        android:textColor="#424242"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ 5 hilos de descarga\n✓ Bajo consumo RAM/Batería\n✓ Open Source\n✓ Seguro y privado"
+        android:textSize="12sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"/>
+
+</LinearLayout>
